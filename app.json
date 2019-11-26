@@ -1,33 +1,28 @@
 {
-  "expo": {
-    "name": "Todo App",
-    "slug": "rn-todo-app",
-    "privacy": "public",
-    "sdkVersion": "35.0.0",
-    "platforms": [
-      "ios",
-      "android"
-    ],
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/react-icon.png",
-    "splash": {
-      "image": "./assets/rn-splash.png",
-      "resizeMode": "cover",
-      "backgroundColor": "#242832"
-    },
-    "updates": {
-      "fallbackToCacheTimeout": 0
-    },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "ios": {
-      "supportsTablet": true
-    },
-    "android": {
-      "package": "com.sunblob.rn_todos_app",
-      "versionCode": 1
+    "expo": {
+        "name": "Todo App",
+        "slug": "rn-todo-app",
+        "privacy": "public",
+        "sdkVersion": "35.0.0",
+        "platforms": ["ios", "android"],
+        "version": "1.0.1",
+        "orientation": "portrait",
+        "icon": "./assets/react-icon.png",
+        "splash": {
+            "image": "./assets/rn-splash.png",
+            "resizeMode": "cover",
+            "backgroundColor": "#ffffff"
+        },
+        "updates": {
+            "fallbackToCacheTimeout": 0
+        },
+        "assetBundlePatterns": ["**/*"],
+        "ios": {
+            "supportsTablet": true
+        },
+        "android": {
+            "package": "com.sunblob.rn_todos_app",
+            "versionCode": 2
+        }
     }
-  }
 }
